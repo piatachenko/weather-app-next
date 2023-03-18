@@ -116,7 +116,7 @@ export default function Home() {
                 alt={weatherData.weather[0].main}
                 width={250}
                 height={250}
-                className="max-[410px]:w-2/3 h-auto"
+                className="max-[410px]:w-[175px] h-auto"
               ></Image>
               <p className="flex items-start justify-center font-semibold mt-2 min-[410px]:mt-4 mb-1">
                 <span className="text-5xl min-[410px]:text-6xl ">
